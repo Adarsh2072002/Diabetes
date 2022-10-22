@@ -13,7 +13,6 @@ def home():
 def predict():
     float_features =[float(x) for x in request.form.values()]
     features = [np.array(float_features)]
-    model = pickle.load(open('diabetes.pkl','rb'))
     pred = model.predict(features)
     if pred==1:
         strr = "You have Diabetes :("
