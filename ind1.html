@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <center>
+        <h2>Fill here. I'm your Care taker :) </h2>
+        <form action="/predict" method="post">
+            <label for="">Pregnancies    </label><input type="text" name="Pregnancies" placeholder="Pregnancies"> <br><br>   
+            <label for="">Glucose    </label><input type="text" name="Glucose" placeholder="Glucose"> <br><br>   
+            <label for="">BloodPressure    </label><input type="text" name="BloodPressure" placeholder="BloodPressure"> <br><br>   
+            <label for="">SkinThickness    </label><input type="text" name="SkinThickness" placeholder="SkinThickness"> <br><br>   
+            <label for="">Insulin    </label><input type="text" name="Insulin" placeholder="Insulinv"> <br><br>   
+            <label for="">BMI    </label><input type="text" name="BMI" placeholder="BMI"> <br><br>   
+            <label for="">DiabetesPedigreeFunction    </label><input type="DiabetesPedigreeFunction" name="age" placeholder="DiabetesPedigreeFunction"> <br><br>   
+            <label for="">Age    </label><input type="text" name="Age" placeholder="Age"> <br><br>   
+            <input type="submit" value="Predict">   
+            {{text_prediction }}
+    </center>
+
+</body>
+</html>
